@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Master</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="assets/favicon.ico" sizes="any">
+
+    <style>
+        :root {
+            --term-bg: #030303;
+            --term-green: #00ff41;
+            --glitch-red: #ff003c;
+            --glitch-blue: #00f0ff;
+        }
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: var(--term-bg);
+            color: var(--term-green);
+            font-family: 'Share Tech Mono', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            background: 
+                linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px);
+            background-size: 20px 20px;
+            z-index: 0;
+            pointer-events: none;
+        }
+        .hacker-panel {
+            position: relative;
+            z-index: 10;
+            padding: 2rem 3rem;
+            border-left: 5px solid var(--term-green);
+            background: rgba(0, 255, 65, 0.02);
+            box-shadow: -10px 0 20px rgba(0, 255, 65, 0.1);
+        }
+        .glitch-text {
+            font-size: clamp(3rem, 10vw, 7rem);
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            margin: 0;
+            line-height: 1;
+            letter-spacing: -2px;
+        }
+        .glitch-text::before,
+        .glitch-text::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--term-bg);
+        }
+        .glitch-text::before {
+            left: 3px;
+            text-shadow: -2px 0 var(--glitch-red);
+            clip-path: polygon(0 20%, 100% 20%, 100% 30%, 0 30%);
+            animation: glitch-anim 2.5s infinite linear alternate-reverse;
+        }
+        .glitch-text::after {
+            left: -3px;
+            text-shadow: -2px 0 var(--glitch-blue);
+            clip-path: polygon(0 60%, 100% 60%, 100% 70%, 0 70%);
+            animation: glitch-anim-2 3s infinite linear alternate-reverse;
+        }
+        .domain-line {
+            margin-top: 1.5rem;
+            font-size: clamp(1rem, 3vw, 1.8rem);
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+        .prompt {
+            color: var(--term-green);
+            margin-right: 15px;
+        }
+        .cursor {
+            display: inline-block;
+            width: 12px;
+            height: 1.2em;
+            background-color: var(--term-green);
+            margin-left: 5px;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes glitch-anim {
+            0% { clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%); }
+            20% { clip-path: polygon(0 80%, 100% 80%, 100% 90%, 0 90%); }
+            40% { clip-path: polygon(0 30%, 100% 30%, 100% 40%, 0 40%); }
+            60% { clip-path: polygon(0 70%, 100% 70%, 100% 80%, 0 80%); }
+            80% { clip-path: polygon(0 40%, 100% 40%, 100% 50%, 0 50%); }
+            100% { clip-path: polygon(0 15%, 100% 15%, 100% 25%, 0 25%); }
+        }
+        @keyframes glitch-anim-2 {
+            0% { clip-path: polygon(0 75%, 100% 75%, 100% 85%, 0 85%); }
+            20% { clip-path: polygon(0 25%, 100% 25%, 100% 35%, 0 35%); }
+            40% { clip-path: polygon(0 90%, 100% 90%, 100% 100%, 0 100%); }
+            60% { clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%); }
+            80% { clip-path: polygon(0 50%, 100% 50%, 100% 60%, 0 60%); }
+            100% { clip-path: polygon(0 85%, 100% 85%, 100% 95%, 0 95%); }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hacker-panel">
+        <h1 class="glitch-text" data-text="COMING_SOON">COMING_SOON</h1>
+        
+        <div class="domain-line">
+            <span class="prompt">root@system:~#</span>
+            <span>./init_comstrx.sh</span>
+            <span class="cursor"></span>
+        </div>
+    </div>
+
+</body>
+</html>
