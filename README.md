@@ -1,11 +1,24 @@
 # ✨ Comstrx
 
-Official website and identity hub for the Comstrx engineering ecosystem.
+Founder of **Comstrx** — an engineering ecosystem for high-performance frameworks, infrastructure tooling, automation, and developer platforms.
 
-`comstrx` is the public home for Core Master's tools, frameworks, infrastructure projects, product experiments, and engineering philosophy.
+Building production-minded tools across Rust, Python, Bash, WebAssembly, infrastructure, and SaaS systems.
 
-It presents the Comstrx stack, documents the ecosystem vision, links the active repositories, and serves as the central brand layer for future releases, articles, demos, and product pages.
+## Comstrx Stack
 
-## License
+- **rustx** — Rust foundation for frameworks, tooling, and runtimes.
+- **webx** — Rust web framework for APIs and services.
+- **pyx** — Python framework powered by native Rust primitives.
+- **wasmx** — Portable WebAssembly toolkit for reusable high-performance operations.
+- **bashx** — Production-grade Bash framework for serious automation.
+- **aliasx** — Lightweight command-bundle framework for shell workflows.
+- **gunx** — Integrated project management CLI for real-world development.
+- **infrax** — Infrastructure blueprints for real-world applications.
+- **panelx** — Admin panel compiler for dashboards and CRUD systems.
+- **saasx** — Reference multi-tenant SaaS platform.
 
-See [LICENSE](./LICENSE). Commercial usage outside the license terms requires written permission.
+## Mission
+
+Build tools that make developers faster, systems cleaner, deployments safer, and software foundations stronger.
+
+> Ship. Freeze. Test. Release.
