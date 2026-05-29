@@ -7,7 +7,7 @@
   <br/>
 </div>
 
-`comstrx` is a Senior Full-Stack Developer & DevOps Engineer.
+`comstrx` Senior Full-Stack Developer & DevOps Engineer.
 
 building production-grade SaaS platforms, backend systems, infrastructure automation, developer tooling, and high-performance engineering foundations.
 
