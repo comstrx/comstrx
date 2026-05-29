@@ -1,4 +1,4 @@
-# ✨ Core Master (comstrx)
+# ✨ Core Master / comstrx
 
 <div align="center">
   <br/>
@@ -7,57 +7,72 @@
   <br/>
 </div>
 
-![CI](https://github.com/comstrx/aliasx/actions/workflows/ci.yaml/badge.svg?branch=main)
-![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)
-![Release](https://img.shields.io/github/v/release/comstrx/aliasx?sort=semver)
+`comstrx` is a Senior Full-Stack Developer & DevOps Engineer.
 
-Senior Backend & Platform Engineer building production-grade SaaS platforms, infrastructure automation, developer tooling, and high-performance systems.
+building production-grade SaaS platforms, backend systems, infrastructure automation, developer tooling, and high-performance engineering foundations.
 
-I work across practical, production-focused stacks:
+I build practical systems that can be designed, shipped, tested, deployed, automated, and maintained.
 
-- **Rust** — Actix Web, Axum, systems tooling, high-performance services.
-- **Python** — FastAPI, Django, Flask, automation, backend services.
-- **PHP** — Laravel, Laravel Octane, FrankenPHP, SaaS platforms.
-- **JavaScript / TypeScript** — Bun, Node.js, React, Next.js.
-- **Bash** — ShellCheck, automation, CLI tooling, deployment workflows.
-- **Infrastructure** — Docker, Docker Compose, Kubernetes, Helm, Argo CD, Kustomize.
-- **DevOps** — CI/CD, Linux, GitHub Actions, cloud-ready infrastructure.
+## Core Stack
 
-I focus on practical systems that can be built, shipped, tested, deployed, and maintained.
+* **Rust** — Actix Web, Axum, systems tooling, high-performance services.
+* **Python** — FastAPI, Django, Flask, automation, backend services.
+* **PHP** — Laravel, Laravel Octane, FrankenPHP, SaaS platforms.
+* **JavaScript / TypeScript** — Bun, Node.js, React, Next.js.
+* **Bash** — ShellCheck, automation, CLI tooling, deployment workflows.
+* **Infrastructure** — Docker, Kubernetes, Helm, Argo CD, Kustomize.
+* **DevOps** — CI/CD, Linux, GitHub Actions, cloud-ready infrastructure.
 
 ## What I Build
 
-- Backend systems and APIs
-- SaaS and multi-tenant platforms
-- Infrastructure automation
-- Developer tools and CLI workflows
-- Deployment and CI/CD systems
-- High-performance framework foundations
+* Backend systems and APIs
+* SaaS and multi-tenant platforms
+* Infrastructure automation
+* Developer tools and CLI workflows
+* Deployment and CI/CD systems
+* High-performance framework foundations
 
-## Featured Projects
+## Comstrx Engineering Toolchain
 
-- **aliasx** — Bash command-bundle framework for building, testing, installing, and releasing portable shell command layers.
-- **bashx**  — Production-grade Bash framework and standard library for serious automation.
-- **saasx**  — Reference multi-tenant SaaS platform with backend, admin, and client foundations.
-- **infrax** — Infrastructure blueprints for deploying real-world applications.
-- **gunx**   — Project management CLI for multi-language development workflows.
-- **panelx** — Admin panel foundation for dashboards, CRUD systems, and internal tools.
+I am building the **Comstrx Engineering Toolchain**: six focused tools designed to turn repeated engineering work into reusable execution power.
 
-## Comstrx Ecosystem
+```txt
+rustx   -> the Rust foundation stdlib for lifecycle programming
+wasmx   -> the WebAssembly execution layer built on rustx
+webx    -> the Hyper-powered web engine built on rustx
+infrax  -> the infrastructure control layer built on rustx
+gunx    -> the project command center built on rustx
+panelx  -> the admin panel compiler built on Next.js + Radix UI + shadcn/ui + Redux
+```
 
-- **rustx**  — Rust foundation for frameworks, tooling, and runtimes.
-- **webx**   — Rust web framework for APIs and services.
-- **pyx**    — Python framework powered by native Rust primitives.
-- **wasmx**  — Portable WebAssembly toolkit for reusable high-performance operations.
-- **bashx**  — Bash framework for automation and shell systems.
-- **aliasx** — Lightweight command-bundle framework for terminal workflows.
-- **gunx**   — Integrated project management CLI.
-- **infrax** — Infrastructure automation and deployment blueprints.
-- **panelx** — Admin panel compiler for dashboards and CRUD systems.
-- **saasx**  — Reference multi-tenant SaaS platform.
+The goal is one engineering workflow for building, controlling, deploying, and operating serious software across backend systems, infrastructure, CI/CD, admin panels, and developer tooling.
+
+Read the full toolchain vision: **[toolx](https://github.com/comstrx/toolx)**
+
+## Current Public Work
+
+* **aliasx** — Bash command-bundle framework for building portable shell command layers.
+* **bashx** — Production-grade Bash framework and standard library for serious automation.
+* **saasx** — Reference multi-tenant SaaS platform.
+* **rustx** — Rust foundation for frameworks, tooling, runtimes, and lifecycle programming.
+* **wasmx** — WebAssembly execution layer for portable Rust-powered modules.
+* **webx** — Hyper-powered Rust web engine built on rustx.
+* **infrax** — Infrastructure control layer using `Infra.lua` and unified deployment commands.
+* **gunx** — Project command center using `Gun.toml` and unified lifecycle commands.
+* **panelx** — Admin panel compiler built from programmable JavaScript specs.
+
+## Future Expansion
+
+After the core six tools are stable, the next direction is exposing `rustx` and `wasmx` power to other ecosystems:
+
+```txt
+pyx    -> Python bindings and runtime layer over rustx + wasmx + PyO3
+nodex  -> Node.js/Bun bindings and runtime layer over rustx + wasmx
+phpx   -> PHP bindings and runtime layer over rustx + wasmx
+```
 
 ## Mission
 
 Build tools that make developers faster, systems cleaner, deployments safer, and software foundations stronger.
 
-> Ship. Freeze. Test. Release.
+> Build tools. Control systems. Ship serious software.
