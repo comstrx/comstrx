@@ -3,76 +3,120 @@
 <div align="center">
   <br/>
   <img height="200" src="https://github.com/user-attachments/assets/498c6967-d273-42fa-9260-72e4ce15aba0" />
-  <br/>
-  <br/>
+  <br/><br/>
 </div>
 
-`comstrx` Senior Full-Stack Developer & DevOps Engineer.
+**Senior DevOps · Backend / Systems Engineer · Full-Stack Builder**
 
-building production-grade SaaS platforms, backend systems, infrastructure automation, developer tooling, and high-performance engineering foundations.
+I build production-grade systems end to end:
 
-I build practical systems that can be designed, shipped, tested, deployed, automated, and maintained.
+**Architecture → Software → Infrastructure → Production → Operations**
 
-## Core Stack
+Rust · Go · Python · Laravel · TypeScript · React/Next.js · PostgreSQL · Redis · Docker · Kubernetes · AWS/GCP · GitOps
 
-* **Rust** — Actix Web, Axum, systems tooling, high-performance services.
-* **Python** — FastAPI, Django, Flask, automation, backend services.
-* **PHP** — Laravel, Laravel Octane, FrankenPHP, SaaS platforms.
-* **JavaScript / TypeScript** — Bun, Node.js, React, Next.js.
-* **Bash** — ShellCheck, automation, CLI tooling, deployment workflows.
-* **Infrastructure** — Docker, Kubernetes, Helm, Argo CD, Kustomize.
-* **DevOps** — CI/CD, Linux, GitHub Actions, cloud-ready infrastructure.
+---
 
-## What I Build
+## ToolX
 
-* Backend systems and APIs
-* SaaS and multi-tenant platforms
-* Infrastructure automation
-* Developer tools and CLI workflows
-* Deployment and CI/CD systems
-* High-performance framework foundations
+**ToolX** is my engineering ecosystem for making the next enterprise system dramatically faster to build without sacrificing performance, architecture, or control.
 
-## Comstrx Engineering Toolchain
-
-I am building the **Comstrx Engineering Toolchain**: six focused tools designed to turn repeated engineering work into reusable execution power.
-
-```txt
-rustx   -> the Rust foundation stdlib for lifecycle programming
-wasmx   -> the WebAssembly execution layer built on rustx
-webx    -> the Hyper-powered web engine built on rustx
-infrax  -> the infrastructure control layer built on rustx
-gunx    -> the project command center built on rustx
-panelx  -> the admin panel compiler built on Next.js + Radix UI + shadcn/ui + Redux
+```text
+RustX    → coherent Rust foundation / extended stdlib
+WebX     → spec-driven Next.js + React web engine
+MobileX  → spec-driven React Native application engine
+InfraX   → self-contained Rust infrastructure engine
+SkillX   → MCP engineering knowledge runtime for AI agents
 ```
 
-The goal is one engineering workflow for building, controlling, deploying, and operating serious software across backend systems, infrastructure, CI/CD, admin panels, and developer tooling.
+Five independent, production-grade tools.  
+One opinionated engineering system.
 
-Read the full toolchain vision: **[toolx](https://github.com/comstrx/toolx)**
+**[Explore ToolX →](https://github.com/comstrx/toolx)**
 
-## Current Public Work
+---
 
-* **aliasx** — Bash command-bundle framework for building portable shell command layers.
-* **bashx** — Production-grade Bash framework and standard library for serious automation.
-* **saasx** — Reference multi-tenant SaaS platform.
-* **rustx** — Rust foundation for frameworks, tooling, runtimes, and lifecycle programming.
-* **wasmx** — WebAssembly execution layer for portable Rust-powered modules.
-* **webx** — Hyper-powered Rust web engine built on rustx.
-* **infrax** — Infrastructure control layer using `Infra.lua` and unified deployment commands.
-* **gunx** — Project command center using `Gun.toml` and unified lifecycle commands.
-* **panelx** — Admin panel compiler built from programmable JavaScript specs.
+## SaaSX
 
-## Future Expansion
+**SaaSX** is the enterprise product where ToolX is forged.
 
-After the core six tools are stable, the next direction is exposing `rustx` and `wasmx` power to other ecosystems:
+A production-grade:
 
-```txt
-pyx    -> Python bindings and runtime layer over rustx + wasmx + PyO3
-nodex  -> Node.js/Bun bindings and runtime layer over rustx + wasmx
-phpx   -> PHP bindings and runtime layer over rustx + wasmx
+```text
+multi-tenant
+multi-role
+multi-product
+unified-catalog
+enterprise SaaS
 ```
+
+with super/admin/vendor/delivery surfaces, SEO client/tenant sites, mobile applications, infrastructure, and engineering knowledge.
+
+The model is simple:
+
+```text
+SaaSX builds the evidence
+        ↓
+ToolX captures the engineering
+        ↓
+SkillX captures the knowledge
+        ↓
+the next SaaS becomes dramatically faster to build
+```
+
+**SaaSX should be the last enterprise SaaS I build the hard way.**
+
+---
+
+## Independent Work
+
+### AliasX
+My personal Linux/macOS workflow tool for turning repetitive shell workflows into fast reusable commands.
+
+### AgentX
+My earlier AI-agent orchestration system and an important experiment in agent-driven engineering. Its development is now retired in favor of powerful external agents guided by SkillX.
+
+### AegisX
+An API security and intelligence system exploring inline traffic inspection, API discovery, observability, behavioral anomaly detection, attack detection, and automated response.
+
+---
+
+## Engineering Philosophy
+
+```text
+simple interfaces
+hard architectural boundaries
+measured performance
+production evidence
+automation over repetition
+AI for acceleration — engineering judgment for control
+```
+
+I do not want AI to replace engineering.
+
+I want engineering systems strong enough that **AI becomes a force multiplier instead of a source of chaos**.
+
+---
 
 ## Mission
 
-Build tools that make developers faster, systems cleaner, deployments safer, and software foundations stronger.
+**Build the product. Extract the engineering. Compound the advantage.**
 
-> Build tools. Control systems. Ship serious software.
+---
+
+## Community
+
+- [Issues](https://github.com/comstrx/comstrx/issues)
+- [Discussions](https://github.com/comstrx/comstrx/discussions)
+- [Contributing](https://github.com/comstrx/comstrx/blob/main/CONTRIBUTING.md)
+- [Security](https://github.com/comstrx/comstrx/blob/main/SECURITY.md)
+- [Support](https://github.com/comstrx/comstrx/blob/main/SUPPORT.md)
+
+## License
+
+<code>comstrx</code> is dual-licensed under either
+[MIT](https://github.com/comstrx/comstrx/blob/main/LICENSE-MIT) or
+[Apache-2.0](https://github.com/comstrx/comstrx/blob/main/LICENSE-APACHE), at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in this work by you, as defined in the Apache-2.0 license, shall be
+dual-licensed as above, without any additional terms or conditions.
