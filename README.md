@@ -1,18 +1,28 @@
-# ✨ Core Master / comstrx
+# ✨ ComstrX (Core Master)
 
 <div align="center">
   <br/>
-  <img height="200" src="https://github.com/user-attachments/assets/498c6967-d273-42fa-9260-72e4ce15aba0" />
+  <img height="250" src="https://github.com/user-attachments/assets/b1df986d-f0c4-4413-a289-78028de4b0f6" />
   <br/><br/>
 </div>
 
-**Senior DevOps · Backend / Systems Engineer · Full-Stack Builder**
+**Abdulrahman Yasser** — **Senior Full Stack & DevOps Engineer**
 
-I build production-grade systems end to end:
+I build production-grade Systems end to end:
 
 **Architecture → Software → Infrastructure → Production → Operations**
 
-Rust · Go · Python · Laravel · TypeScript · React/Next.js · PostgreSQL · Redis · Docker · Kubernetes · AWS/GCP · GitOps
+> I do not measure engineering by how much code I write.
+>
+> I measure it by how much complexity I remove, how much leverage I create, and how much of the next system no longer needs to be reinvented.
+>
+> **Build once. Abstract only what survives reality. Reuse forever.**
+
+> The strongest engineer is not the one who solves the same problem fastest.
+>
+> It is the one who solves it so well that the problem never needs to be solved the same way again.
+>
+> **That is the philosophy behind ToolX.**
 
 ---
 
@@ -22,10 +32,10 @@ Rust · Go · Python · Laravel · TypeScript · React/Next.js · PostgreSQL · 
 
 ```text
 RustX    → coherent Rust foundation / extended stdlib
-WebX     → spec-driven Next.js + React web engine
-MobileX  → spec-driven React Native application engine
 InfraX   → self-contained Rust infrastructure engine
 SkillX   → MCP engineering knowledge runtime for AI agents
+WebX     → spec-driven Next.js + React web engine
+MobileX  → spec-driven React Native application engine
 ```
 
 Five independent, production-grade tools.  
@@ -64,6 +74,8 @@ the next SaaS becomes dramatically faster to build
 ```
 
 **SaaSX should be the last enterprise SaaS I build the hard way.**
+
+**[Explore SaasX →](https://github.com/comstrx/saasx)**
 
 ---
 
