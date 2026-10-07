@@ -125,10 +125,6 @@ I want engineering systems strong enough that **AI becomes a force multiplier in
 
 ## License
 
-<code>comstrx</code> is dual-licensed under either
-[MIT](https://github.com/comstrx/comstrx/blob/main/LICENSE-MIT) or
-[Apache-2.0](https://github.com/comstrx/comstrx/blob/main/LICENSE-APACHE), at your option.
+Copyright © 2026 Abdulrahman Yasser (comstrx).
 
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in this work by you, as defined in the Apache-2.0 license, shall be
-dual-licensed as above, without any additional terms or conditions.
+Licensed under the [GNU Affero General Public License v3.0](./LICENSE).
